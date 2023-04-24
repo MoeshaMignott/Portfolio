@@ -27,57 +27,35 @@
       }
 
       body {
-        margin: 0 auto;
         display: block;
+        margin: 0 auto;
         background: #f1cfcf;
         text-align: center;
       }
-
+      h1,
+      h2,
+      h5 {
+        display: flex;
+        justify-content: center;
+      }
       h1 {
         font-size: 80px;
         color: var(--main-color);
       }
-      .wrapper {
-        display: inline-flex;
-      }
-      .wrapper,
-      .static-txt {
+      h2 {
         color: white;
         font-size: 80px;
-        font-weight: 200;
+        font-weight: 400;
       }
-      .wrapper,
-      .dynamic-txts {
-        margin-left: 15px;
+      h5 {
+        color: white;
+        font-size: 20px;
+        margin-top: 100px;
       }
-      .dynamic-txts,
-      li {
-        color: var(--main-color);
-        list-style: none;
-        font-size: 80px;
-        font-weight: 200;
-      }
-      .dynamic-txts,
-      li,
-      span {
-        position: relative;
-      }
-      .dynamic-txts,
-      li,
-      span::after {
-        content: "";
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        border-left: 2px solid var(--main-color);
-        animation: typing 1.5s steps(19, end) infinite;
-        @keyframes typing {
-          from {
-            width: 0;
-          }
-          to {
-            width: 100%;
-          }
+      @media (max-width: 575px) {
+        h1,
+        h2 {
+          font-size: 45px;
         }
       }
     </style>
@@ -85,7 +63,7 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="./image/logo.png"></a>
+        <a class="navbar-brand" href="#"><a href="../image/Logo.png"></a></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -107,16 +85,8 @@
         </div>
       </div>
     </nav>
-
     <h5>Hi, My name is</h5>
     <h1>Moesha Mignott</h1>
-    <div class="wrapper">
-      <div class="static-txt">I am a</div>
-      <ul class="dymanic-txts">
-        <li><span>Front-end Developer</span></li>
-        <br />
-        <li><span>Software Engineer</span></li>
-      </ul>
-    </div>
+    <h2>Front-end Developer based in Jamaica</h2>
   </body>
 </html>
