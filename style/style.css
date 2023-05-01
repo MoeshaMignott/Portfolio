@@ -23,7 +23,7 @@ h5 {
   display: flex;
   justify-content: center;
 }
-h1 {
+.homePage {
   font-size: 80px;
   color: var(--main-color);
 }
@@ -40,7 +40,6 @@ h5 {
 .contact {
   background-image: url("../image/keyboard.jpg");
   background-size: cover;
- 
 }
 .form {
   display: block;
@@ -51,4 +50,9 @@ h5 {
   h2 {
     font-size: 45px;
   }
+}
+.projects {
+  text-align: center;
+  color: var(--main-color);
+  font-size: 80px;
 }
