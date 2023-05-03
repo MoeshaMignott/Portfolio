@@ -3,56 +3,73 @@
   --color: #ffff;
 }
 @media (max-width: 576px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  h1 {
+    text-align: center;
+    font-size: 18px;
+  }
 }
 
-body {
+#home {
   display: block;
   margin: 0 auto;
-  background: #0b2781;
+  background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 
-  text-align: center;
 }
 .navbar-brand img {
   height: 50px;
   width: auto;
 }
 
-h1,
-h2,
-h5 {
-  display: flex;
-  justify-content: center;
+.name,
+.career,
+.intro {
+  text-align: center;
+margin-left: 30px;}
+.name {
+  font-size: 60px;
+  color: white;
 }
-.homePage {
-  font-size: 80px;
-  color: var(--main-color);
-}
-h2 {
+.career {
   color: white;
   font-size: 80px;
   font-weight: 400;
 }
-h5 {
+.intro {
   color: white;
   font-size: 20px;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 .contact {
-  background-image: url("../image/keyboard.jpg");
-  background-size: cover;
+  background: rgb(247, 200, 208);
+  text-align: center;
+  margin-top: 40px;
 }
-.form {
+form {
   display: block;
-  margin: 0 auto;
+  margin-top: 100px ;
+  text-align: center;
+
 }
-@media (max-width: 575px) {
-  h1,
-  h2 {
-    font-size: 45px;
-  }
+.connect{
+  font-size: 80px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: white;
 }
+
+
 .projects {
   text-align: center;
   color: var(--main-color);
   font-size: 80px;
+}
+footer{
+text-align: center;
+font-size: 18px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-top: 100px;
 }
