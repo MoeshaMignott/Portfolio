@@ -16,9 +16,8 @@
 #home {
   display: block;
   margin: 0 auto;
-  background-color: #8EC5FC;
-background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
 }
 .navbar-brand img {
   height: 50px;
@@ -29,7 +28,8 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 .career,
 .intro {
   text-align: center;
-margin-left: 30px;}
+  margin-left: 30px;
+}
 .name {
   font-size: 60px;
   color: white;
@@ -51,25 +51,40 @@ margin-left: 30px;}
 }
 form {
   display: block;
-  margin-top: 100px ;
+  margin-top: 100px;
   text-align: center;
-
 }
-.connect{
+.connect {
   font-size: 80px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
 }
-
 
 .projects {
   text-align: center;
   color: var(--main-color);
   font-size: 80px;
 }
-footer{
-text-align: center;
-font-size: 18px;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-margin-top: 100px;
+#name {
+  display: inline-block;
+}
+#message {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 12%;
+}
+.mTitle {
+  margin-left: -10%;
+}
+
+.icon {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer {
+  text-align: center;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 100px;
 }
