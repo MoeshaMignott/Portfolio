@@ -2,14 +2,49 @@
   --main-color: #0b2781;
   --color: #ffff;
 }
+
 @media (max-width: 576px) {
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  h1 {
+  .navbar-nav {
+    flex-direction: column;
     text-align: center;
-    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .nav-link {
+    margin: 5px 0;
+  }
+
+  .intro {
+    font-size: 12px;
+  }
+
+  .name {
+    font-size: 14px;
+  }
+
+  .career {
+    font-size: 16px;
+  }
+
+  .icon {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutTitle,
+  .connect,
+  #projects {
+    font-size: 16px;
+    text-align: center;
+  }
+  .form {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  footer {
+    text-align: center;
   }
 }
 
